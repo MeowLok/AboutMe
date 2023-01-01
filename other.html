@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>嗨! 我是喵樂</title>
+        <link rel="icon" href="photos/padoru.png">
+        <style>
+           @font-face {font-family: 俐方體11號; src: URL(Cubic_11_1.013_R.woff2);}
+            @font-face {font-family: 華康雅風體W3; src: URL(雅風體W3.woff2);}
+            body{background-color: #32363A;color: white; font:x-large 華康雅風體W3;}
+            header{text-align:center; font:150% 俐方體11號;background-color:#003B4A; color: white;position: fixed;width: 100%;top:0%;left: 0%;padding: 0.2%;transition: 200ms;}
+            header:hover{font:200% 俐方體11號;transition: 200ms;}
+            table{width: 101.5%;padding-top: 3.1%;margin: -1%;}
+            #side{width: 25%;vertical-align: top;background-color:#4B3332;max-width: 15%;min-width: 180px;}
+            #banner{width: 100%;height: 5%;top:0px;}
+            footer{background-color: #EEEEEE;text-align: center;position: fixed;width: 100%; bottom: 0%;left: 0%;transition: 200ms;}
+            footer:hover{font-size: 150%;transition: 200ms;}
+            .sideURL{color: #B1FBEB;text-decoration: none;padding-left: 5%;}
+            .URL{color:#B1FBEB;text-decoration: none;}
+            .prod{transition: 200ms;}
+            .prod:hover{width: 1024px;transition: 200ms;}
+        </style>
+        <script>
+            var text = [
+            '要過愉快的生活、要從新做人，不很難，把條件降低一點，知足，常樂。 -蔡瀾',
+            '失敗的次數愈來愈多，便麻木了，就知道怎麼去刻服它，這是人生學得聰明的過程。 -蔡瀾',
+            '謙虛是美德，過份謙虛變成造作。 -蔡瀾',
+            '安息日是為人設立的，人不是為安息日設立的。 -馬可福音2:27',
+            '恨能挑啟爭端；愛能遮掩一切過錯。 -箴言10:12',
+            '因為我們行事為人是憑著信心，不是憑著眼見。 -哥林多後書 5:7',
+            '別對自己太嚴苛！世上沒有人通曉一切智慧。 -伊莉莎白二世',
+            '當遇見生活中的困難，期許自己當那個為了未來起身奮鬥的人，而不是直接屈服於失敗。-伊莉莎白二世',
+            '膽小的人可以逃跑，但危機往往由具有高貴膽識的人解決。-伊莉莎白二世',
+            '樹大必有枯枝，人多必有白痴。 -佚名',
+            '忍一句，息一怒，饒一着，退一步。 -佚名',
+            '轉一轉，舔一舔，泡一泡。 -OREO'
+            ];
+            setInterval('document.getElementById("footer").innerHTML=text[Math.floor(Math.random()*text.length)]',5000);
+        </script>
+    </head>
+    <body>
+        <!--這是標題-->
+        <header>
+            <a><span style="color:#B1FBEB;">喵樂</span> 一個垃圾廢人</a>
+        </header>
+        <!--這是中間-->
+        <table>
+            <tr>
+                <!--這是側邊-->
+                <td id="side"><nav>
+                    <a href="Untitled-1.html"><img src="photos/padoru.ico" style="width: 100%;"></a>
+                    <br><br><a href="Untitled-1.html" class="sideURL">主頁</a><br>
+                    <br><a href="about me.html" class="sideURL">關於我</a><br>
+                    <br><a href="photos.html" class="sideURL">攝影作品集</a><br>
+                    <br><a href="other.html" class="sideURL" style="color: #FFFF00;">平面設計作品</a><br>
+                </nav></td>
+                <!--這是中間-->
+                <td><main>
+                    <img src="photos/banner.png" id="banner">
+                    <h2>嗨！我是喵樂，一個垃圾廢人</h2>
+                    <hr>
+                    <h1>梗圖集</h1>
+                    <img src="photos/1d27f077c546f31f6a656d7669f4eb2f.png" width="512px" class="prod"><br>
+                    <img src="photos/5add0ad59f78917fc36d023a1ff374e8_w.png" width="512px" class="prod"><br>
+                    <img src="photos/ddb0503a3043e33f88225cf9b7b42a93.png" width="512px" class="prod"><br>
+                    <img src="photos/IMG_9400.JPG" width="512px" class="prod"><br>
+                    <img src="photos/IMG_9412.JPG" width="512px" class="prod"><br>
+                    <img src="photos/IMG_9402.JPG" width="512px" class="prod"><br>
+                    <hr>
+                    <h1>海報設計</h1>
+                    <img src="photos/出版物1.png" width="512px" class="prod"><br>
+                </main></td>
+            </tr>
+        </table>
+        <footer>
+            <a style="color: black;" id="footer">要過愉快的生活、要從新做人，不很難，把條件降低一點，知足，常樂。 -蔡瀾</a>
+        </footer>
+    </body>
+</html>
