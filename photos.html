@@ -20,8 +20,16 @@
             .sideURL{color: #B1FBEB;text-decoration: none;padding-left: 5%;transition: 200ms;}
             .sideURL p{line-height:5%;margin-left: 5%;}
             .sideURL:hover{color: #8DC7BA;transition: 200ms;}
+            .bigimg{width: 50%;transition: 200ms;}
+            .bigimg:hover{width: 75%;transition: 200ms;}
             .img{width: 100%;transition: 200ms;}
             .img:hover{width: 150%;transition: 200ms;}
+            @media (max-width:1200px) {
+                body{font-size: 4vw;}
+                table{padding-top: 7%;}
+                #side{max-width: 100%;}
+                main{font-size: 3vw;}
+            }
         </style>
         <script>
             var text = [
@@ -54,8 +62,8 @@
                     <a href="index.html"><img src="photos/padoru.ico" style="width: 100%;"></a><br>
                     <a href="index.html" class="sideURL"><p>主頁</p></a>
                     <a href="about me.html" class="sideURL"><p>關於我</p></a>
-                    <a href="photos.html" class="sideURL" style="color: #FFFF00;"><p>攝影作品集</p></a>
-                    <a href="other.html" class="sideURL"><p>平面設計作品</p></a>
+                    <a href="photos.html" class="sideURL" style="color: #FFFF00;"><p>攝影作品</p></a>
+                    <a href="other.html" class="sideURL"><p>平面設計</p></a>
                 </nav></td>
                 <!--這是中間-->
                 <td><main>
@@ -88,6 +96,18 @@
                     <hr>
                     <img src="photos/DSC00565.JPG" class="img">
                     <a>Taken by Sony A7iii 29mm f/4.5 1/10s ISO 100</a><br>
+                    <hr>
+                    <img src="photos/20221118_105133.jpg" class="bigimg">
+                    <a>Taken by Samsung SM-A226B 5mm f/1.8 1/26s ISO 2159</a><br>
+                    <hr>
+                    <img src="photos/20220929_175416.jpg" class="bigimg">
+                    <a>Taken by Samsung SM-A226B 5mm f/1.8 1/33s ISO 669</a><br>
+                    <hr>
+                    <img src="photos/20220609_161045.jpg" class="bigimg">
+                    <a>Taken by Samsung SM-A226B 5mm f/1.8 1/111s ISO 257</a><br>
+                    <hr>
+                    <img src="photos/IMG_20210619_125104.jpg" class="bigimg">
+                    <a>Taken by Huawei VIE-L29 4.5mm f/2.2 1/817s ISO 50</a><br>
                     <hr>
                 </main></td>
             </tr>
