@@ -1,4 +1,4 @@
-@font-face {font-family: cub11; src: URL(.c.woff2);}
+@font-face {font-family: cub11; src: URL(cub11.woff2);}
 body{background-color: #32363A;color: white; font:1.2vw 'Noto Sans TC';}
 header{text-align:center; font:150% cub11;background-color:#003B4A; color: white;position: fixed;width: 100%;top:0%;left: 0%;padding: 0.2%;transition: 200ms;}
 header:hover{font:200% cub11;transition: 200ms;}
