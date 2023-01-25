@@ -12,7 +12,7 @@ footer:hover{font-size: 150%;transition: 200ms;}
 .time{color: #FFFFFF;text-decoration: none;padding-left: 5%;font-size: 1vw;}
 .time p{line-height:5%;margin-left: 5%;}
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1081px) {
     body{font-size: 3.5vw;}
     #sidePic{display: none;}
     .sideURL{font-size: 0;}
