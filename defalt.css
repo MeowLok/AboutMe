@@ -1,22 +1,37 @@
 @font-face {font-family: cub11; src: URL(cub11.woff2);}
-body{background-color: #32363A;color: white; font:1.2vw 'Noto Sans TC';height: 100%;}
-header{text-align:center; font:150% cub11;background-color:#003B4A; color: white;position: fixed;width: 100%;top:0%;left: 0%;padding: 0.2%;transition: 200ms;}
-header:hover{font:200% cub11;transition: 200ms;}
-table{width: 101.5%;padding-top: 3.1%;margin: -1%;}
-#side{width: 25%;vertical-align: top;background-color:#4B3332;max-width: 15%;min-width: 180px;}
-#banner{width: 100%;height: 5%;top:0px;}
-footer{background-color: #EEEEEE;text-align: center;position: fixed;width: 100%; bottom: 0%;left: 0%;transition: 200ms;}
-footer:hover{font-size: 150%;transition: 200ms;}
-.sideURL{color: #B1FBEB;text-decoration: none;padding-left: 5%;transition: 200ms;display: flex; align-items: center;}
-.sideURL:hover{color: #8DC7BA;transition: 200ms;}
-.time{color: #FFFFFF;text-decoration: none;padding-left: 5%;font-size: 1vw;}
-.time p{line-height:5%;margin-left: 5%;}
+@font-face {font-family: ins11;src: URL(Iansui094-Regular.woff);}
+@font-face {font-family: normal;src: url(華康少女字W6.woff);}
+body{background-color: #848D94;color: #D8FFDB; font-size: 1.2vw ;font-family:normal ;height: 100%;}
+a{text-decoration:none;}
 
-@media screen and (max-width: 1081px) {
-    body{font-size: 3.5vw;}
-    #sidePic{display: none;}
-    .sideURL{font-size: 0;}
-    table{padding-top: 7%;}
-    #timer{display: none;}
-    #side{max-width: 48px;min-width: 48px;width: 48px;}
+header{
+    background-color: #4E96C7;
+    padding:0.1em;
+    text-align: center;
+    font-family:cub11;
+    font-size: 2vw;
+    transition:0.5s;
+    color:white;
+}
+header:hover {
+    font-size: 2.5vw;
+}
+#header{
+    font-size: 75%;
+}
+
+#banner_div{    
+  position: relative;
+  text-align: center;
+}
+#banner_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font: 3vw ins11;
+}
+p{
+    padding-left: 1%;
 }
